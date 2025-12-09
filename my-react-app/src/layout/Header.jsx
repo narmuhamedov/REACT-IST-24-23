@@ -9,6 +9,9 @@ export default function Header(){
                 <Link to="/"> Главная </Link>
                 <Link to="/"> Посты </Link>
                 <Link to="#"> Контакты </Link>
+                <Link to="/register"> Регистрация </Link>
+                <Link to="/login"> Вход </Link>
+                <Link to="/profile"> профиль </Link>
             </nav>
         </header>
     );

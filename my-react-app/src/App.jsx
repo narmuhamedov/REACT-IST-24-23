@@ -5,6 +5,10 @@ import PostsList from './pages/PostsList';
 import PostDetail from './pages/PostDetail';
 import CreatePost from './pages/CreatePost';
 import EditPost from './pages/EditPost';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import Profile from './pages/Profile';
+
 
 export const PostsContext = createContext();
 
@@ -33,6 +37,9 @@ export default function App() {
             <Route path="post/:id" element={<PostDetail />} />
             <Route path="create" element={<CreatePost />} />
             <Route path="edit/:id" element={<EditPost />} />
+            <Route path='/register' element = {<Register />} />
+            <Route path='/login' element = {<Login />} />
+            <Route path='/profile' element = {<Profile />} />
           </Route>
         </Routes>
       </Router>
